@@ -1,7 +1,9 @@
-import { User } from "@models/User";
+import User from '@models/User';
 
-export class UsersController {
+export default class UsersController {
+  user: User;
+
   teste() {
-    const user = new User();
+    this.user = new User();
   }
 }
