@@ -1,0 +1,23 @@
+git init
+yarn init -y
+yarn add typescript -D
+yarn tsc --init
+yarn add express
+yarn add @types/express -D
+yarn add ts-node-dev -D
+yarn ts-node-dev src/server.ts
+yarn tsc
+yarn add tsconfig-paths -D
+yarn add eslint -D
+yarn eslint --init
+yarn add -D @typescript-eslint/eslint-plugin@latest eslint-config-airbnb-base@latest eslint@^5.16.0 || ^6.8.0 || ^7.2.0 eslint-plugin-import@^2.21.2 @typescript-eslint/parser@latest
+yarn add jest -D
+yarn jest --init
+yarn add ts-jest -D
+yarn add @types/jest -D
+yarn eslint --init
+yarn lint
+yarn add ts-jest -D
+yarn add @babel/cli @babel/core @babel/node @babel/preset-env @babel/preset-typescript babel-plugin-module-resolver
+yarn test
+yarn build
